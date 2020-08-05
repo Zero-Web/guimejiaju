@@ -1,0 +1,67 @@
+@import './base.less';
+
+body {
+  min-width: 1140px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #2d3666;
+  background-color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.clear::after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.fl {
+  float: left!important;
+}
+
+.fr {
+  float: right!important;
+}
+
+.text-left {
+  text-align: left!important;
+}
+.text-center {
+  text-align: center!important;
+}
+.text-right {
+  text-align: right!important;
+}
+
+.block {
+  display: block !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+// 背景
+.backdrop-wrap {
+  display: block;
+  position: relative;
+  .backdrop-cont {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 715px;
+  }
+}
+
+.margin-index-top {
+  margin-top: 60px;
+}
